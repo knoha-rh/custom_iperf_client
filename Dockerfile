@@ -1,5 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ubi:8.5
-
+FROM centos:7
 LABEL version=0.1
 USER root
 RUN yum -y install iperf3
